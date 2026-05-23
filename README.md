@@ -62,8 +62,3 @@ Yulu, India's leading micro-mobility provider, experienced a significant dip in 
 4. **Optimise zone placement near offices** - working-day demand signals commuter use cases
 5. **Pair weather APIs with fleet management** - real-time weather data can automate dynamic rebalancing
 
----
-
-│   └── yulu_data.csv
-└── README.md
-```
