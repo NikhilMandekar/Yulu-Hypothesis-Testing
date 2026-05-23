@@ -1,4 +1,4 @@
-#  Yulu Micro-Mobility — Demand Drivers & Hypothesis Testing
+#  Yulu Micro-Mobility - Demand Drivers & Hypothesis Testing
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
@@ -39,16 +39,16 @@ Yulu, India's leading micro-mobility provider, experienced a significant dip in 
 
 ### 2. Hypothesis Testing (SciPy)
 
-**Test 1 — 2-Sample t-test: Does working day affect rentals?**
+**Test 1 | 2-Sample t-test: Does working day affect rentals?**
 - H₀: Mean rentals on working days = Mean rentals on non-working days
 - Validated normality (Shapiro-Wilk) and equal variance (Levene's test)
 - Result: **Statistically significant difference** (p < 0.05) — working day status does affect demand
 
-**Test 2 — ANOVA: Do seasons and weather drive demand variation?**
+**Test 2 | ANOVA: Do seasons and weather drive demand variation?**
 - H₀: Mean rentals are equal across all seasons / weather categories
 - Result: **Both season and weather show significant variation** (p < 0.05) — fleet allocation should be weather and season-aware
 
-**Test 3 — Chi-Square: Is weather dependent on season?**
+**Test 3 | Chi-Square: Is weather dependent on season?**
 - H₀: Weather type and season are independent
 - Result: **Significant association found** — weather and season are not independent, informing joint demand-forecasting models
 
@@ -56,11 +56,11 @@ Yulu, India's leading micro-mobility provider, experienced a significant dip in 
 
 ##  Key Business Recommendations
 
-1. **Deploy more cycles in Fall** — highest demand season; under-supply directly impacts revenue
-2. **Reduce fleet on rainy/stormy days** — demand drops sharply in Weather Type 3–4
-3. **Run weekday promotions** — working days see different demand patterns; targeted discounts can smooth utilisation
-4. **Optimise zone placement near offices** — working-day demand signals commuter use cases
-5. **Pair weather APIs with fleet management** — real-time weather data can automate dynamic rebalancing
+1. **Deploy more cycles in Fall** - highest demand season; under-supply directly impacts revenue
+2. **Reduce fleet on rainy/stormy days** - demand drops sharply in Weather Type 3–4
+3. **Run weekday promotions** - working days see different demand patterns; targeted discounts can smooth utilisation
+4. **Optimise zone placement near offices** - working-day demand signals commuter use cases
+5. **Pair weather APIs with fleet management** - real-time weather data can automate dynamic rebalancing
 
 ---
 
